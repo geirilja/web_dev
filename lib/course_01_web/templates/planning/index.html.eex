@@ -1,8 +1,21 @@
-<h3>Planning and problem solving</h3>
-<dl>
-<dt>Planning</dt>
-<dd>descripe how you plan projects</dd>
-<dt>problem solving</dt>
-<dd>describe 1-3 problem solving techniques you use </dd>
-<dd>explain differences in solo and team work. Describe how you work in teams</dd>
-</dl>
+<h1>Planning and problem solving</h1>
+
+<h3>Planning</h3>
+<h4>Find the essence of the project</h4>
+<p>I try to find the core of the project, by trying to express the essence of the project in only one concrete sentence. I write down the sentence, to be able to adjust and enchance to make sure I grasp the core. The main focus is whats the benefits for the owner and the visitors of the site.</p>
+<h4>Make lists</h4>
+<p>Make lists of elements needed to complete the project. The questions I asking can be:</p>
+<ul>
+<li>What do I need?</li>
+<li>What can the element do?</li>
+<li>Will the element be useful to the owner of the site?</li>
+<li>Will the element be useful to the visitor?</li>
+<li>Is the element I consider be worth the labour required?</li>
+</ul>
+<p>After considering if the element is a benefit to the project, I try to pinpoint how to create or implement it, with the least amount of labour.</p>
+<h4>Visualize</h4>
+<p>I make drawings for the visualization of design and association between parts of the projects. Design is mostly structure of what to implement, and where to place each element. The main focus is user experience. Associations between parts of the procject is mostly diagrams to show db or reuse of code.</p>
+<h3>Problem solving</h3>
+<p>when i encounter problems I try to find an error message. I an error message is uavaliable i try to identify where the problems occurs. After finding the error, I try to remember when the problem occurs, so its easyer to find what code was added or changed. If theres an error message present, I try to find if theres new code thats relevant to the error. I consider if the code should be rewritten from scratch or altered. From here its try and error to change the code, until the error is gone. when the error appear to be gone, I test the site to make sure that the errorfix I've implemented don't creates new error or problems.</p>
+<p>When working solo there's (naturally) a unified understanding among all participants, but the knowledge is limited my my knowledge. In teamwork there </p>
+<p>explain differences in solo and team work. Describe how you work in teams</p>
