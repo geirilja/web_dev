@@ -1,0 +1,47 @@
+<h3>Elixir</h3>
+<p>Use lib to store example files</p>
+<dl>
+    <dt>IEX</dt>
+        <dd>Explain iex</dd>
+        <dd>what are some IEX use caes</dd>
+        <dd>how do you get IEX help </dd>
+        <dd>How do you trigger code from a project in IEX</dd>
+    <dt>Mix</dt>
+    <dd>What is mix</dd>
+    <dd>what uses cases are for mix</dd>
+    <dd>give some mix examples and use cases</dd>
+    <dt>Data types</dt>
+    <dd>List all data types show examples and give use case</dd>
+    <dd>strings  </dd>
+    <dt>Operators</dt>
+    <dd>List all operators show examples and give use case</dd>
+    <dt>collections</dt>
+    <dd>List</dd>
+    <dd>tuples</dd>
+    <dd>map</dd>
+    <dd>mapset</dd>
+    <dd>struct</dd>
+    <dd>keyword list</dd>
+    <dt>Pattern matching</dt>
+    <dd>Explain pattern matching , give use cases and examples</dd>
+    <dd>where is pattern matching use and why is it a good thing</dd>
+    <dt>Modules and functions</dt>
+    <dd>Explain Modules and functions give example</dd>
+    <dd>Explain and give use cases for modules and functions</dd>
+    <dt>Recursion</dt>
+    <dd>Explain recursion give examples and why do we use it</dd>
+    <dt>Comprehensions</dt>
+    <dd>Explain comprehensions</dd>
+    <dt>Enumerable</dt>
+    <dd>Give an overview of the enumerable module</dd>
+    <dd>explain Enum.map and 5 other freely chose functions in this module</dd>
+    <dt>EXUnit</dt>
+    <dd>Make a basic module and functions and test it</dd>
+    <dt>What else is there</dt>
+    <dd>Look through https://hexdocs.pm/elixir/Kernel.html. What else would you highlight and why ?</dd>
+    <dd>What are apis and give an example of a phoenix API</dd>
+</dl>
+<p>
+    mandatory watch
+    <a href="https://www.youtube.com/watch?v=9uvp4h7gXH">Micropatterns in elixir</a>
+</p>

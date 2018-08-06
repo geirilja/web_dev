@@ -1,0 +1,26 @@
+<h3>JS</h3>
+<p>
+use App.js for examples
+</p>
+<dl>
+<dt>Variables and data </dt>
+<dd>explain and list all variable types show examples </dd>
+<dt>Operators</dt>
+<dd>explain and list all operators show examples </dd>
+<dt>Logic flow</dt>
+ <dd>Explain and show examples of if ,switch case</dd>
+<dt>Arrays</dt>
+<dd>Explain arrays and give use case</dd>
+<dt>Functions</dt>
+<dd>Explain functions show examples of atleast 5 functions</dd>
+<dt>Objects</dt>
+<dd>Explain objects show use cases</dd>
+<dt>loops</dt>
+<dd>List and show all examples of loops what uses cases do we have ?</dd>
+<dt>Scope</dt>
+<dd>What are scopes how do they work , give examples</dd>
+<dt>misc</dt>
+<dd>What is JSON explain and give examples</dd>
+<dd>whats es6/ES2015+</dd>
+<dd>give examples of prominent es6/es2015/ features</dd>
+</dl>

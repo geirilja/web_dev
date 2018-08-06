@@ -1,0 +1,73 @@
+<h3>HTML</h3>
+<p>
+    for each item in dl make below this paragrap; make a description and give examples of use
+    make routes and view at your discression
+</p>
+<dl>
+    <dt>Tags</dt>
+    <dd>h</dd>
+    <dd>html</dd>
+    <dd>head</dd>
+    <dd>body</dd>
+    <dd>header</dd>
+    <dd>footer</dd>
+    <dd>div</dd>
+    <dd>span</dd>
+    <dd>track</dd>
+    <dd>aside</dd>
+    <dd>Main</dd>
+    <dd>nav</dd>
+    <dd>legend</dd>
+    <dd>a</dd>
+    <dd>article</dd>
+    <dd>Meta</dd>
+    <dd>template</dd>
+    <dd>button</dd>
+    <dd>caption</dd>
+    <dd>fieldset</dd>
+    <dd>ins</dd>
+    <dd>canvas</dd>
+    <dd>object</dd>
+    <dd>optgroup</dd>
+    <dd>figcaption</dd>
+    <dd>li</dd>
+    <dd>meta</dd>
+    <dd>output</dd>
+    <dd>q</dd>
+    <dd>wbr</dd>
+    <dd>title</dd>
+    <dd>video</dd>
+    <dd>audio</dd>
+    <dd>noscript</dd>
+    <dd>figure</dd>
+    <dd>map</dd>
+    <dd>paragrap</dd>
+    <dd>ul ol dl </dd>
+    <dd>Table</dd>
+    <dd>form</dd>
+    <dd>var</dd>
+    <dd>input add common examples</dd>
+    <dd>i</dd>
+    <dd>img</dd>
+    <dd>optgroup</dd>
+    <dd>progress</dd>
+    <dd>code</dd>
+    <dd>blockquote</dd>
+    <dd>pre</dd>
+    <dd>section</dd>
+    <dd>strong strike sub sup small abbr address summary mark em cite</dd>
+    <dd>svg</dd>
+    <dt>Attributes</dt>
+    <dd>Data</dd>
+    <dd>datalist</dd>
+    <dd>style</dd>
+    <dd>href</dd>
+    <dd>src</dd>
+    <dd>alt</dd>
+    <dd>data</dd>
+    <dd>samp</dd>
+    <dd>select</dd>
+    <dd>hr</dd>
+    <dd>iframe</dd>
+    <dd>Add,describe and give example of 20 more attributes and which tags they can be used with </dd>
+</dl>

@@ -1,0 +1,8 @@
+<h3>Git</h3>
+<ul>
+    <li>Why use git </li>
+    <li>Describe your Git routines</li>
+    <li>Explain following terms, give use case and put them in order of use or most used: <br>
+pull reset config reset unstage stash push merge rebase clone remote branch blame init checkout commit fetch status add
+    </li>
+</ul>

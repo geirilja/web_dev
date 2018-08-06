@@ -1,0 +1,32 @@
+<h3>Phoenix</h3>
+<dl>
+<dt>General</dt>
+<dd>Explain how data flows through the system</dd>
+<dd>What major parts/Features do Phoenix consist of</dd>
+<dd>Explain Contexts in Phoenix</dd>
+<dd>Explain controllers in phoenix</dd>
+<dd>Explain and give example of views in phoenix</dd>
+<dd>Explain and give examples of templates in phoenix</dd>
+<dd>Explain and give examples of router in phoenix</dd>
+<dd>what are route scopes ? give examples</dd>
+<dt>Plug</dt>
+<dd>What is plug ? and what is it used for</dd>
+<dd>What is conn?</dd>
+<dd>Make a plug that displays the route name on the page you are on</dd>
+<dt>Ecto</dt>
+<dd>what is ecto explain and give examples</dd>
+<dd>What are ecto adapters? explain and show examples</dd>
+<dd>What are migrations explain and show examples</dd>
+<dd>what is ecto schema ? explain and show examples</dd>
+<dd>What mix tasks do we have and what do they do? </dd>
+<dd>What is repo? explain and show examples </dd>
+<dd>What is Ecto. query why and when do we use them? give examples and use cases</dd>
+<dd>what is ecto changeset ? why do we use it ? give examples etc</dd>
+<dd>what is ecto.multi ? give examples etc</dd>
+<dd>Ecto . associations what are they ? why and how do we use them ? </dd>
+<dd>Ecto Embedded what is it , give examples</dd>
+<dt>Tasks</dt>
+<dd>Display simple data on screen from database, ie names adress etc</dd>
+<dd>display relational data on screen , ie a blog post with comments </dd>
+<dd>Give example of embedded data</dd>
+</dl>

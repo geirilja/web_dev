@@ -17,6 +17,14 @@ defmodule Course01Web.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/planning", PlanningController, :index
+    get "/git", GitController, :index
+    get "/css", CssController, :index
+    get "/js", JsController, :index
+    get "/elixir", ElixirController, :index
+    get "/phoenix", PhoenixController, :index
+    get "/micropatterns", MicropatternsController, :index
+    get "/polish", PolishController, :index
   end
 
   # Other scopes may use custom stacks.
