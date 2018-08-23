@@ -6,6 +6,21 @@
 <dl>
     <dt>Basics</dt>
     <dd>Explain how css works give examples</dd>
+    <dd><strong>CSS</strong> is an abbreviation of Cascading Style Sheets. While HTML defines the content of the document (what every element on the page is), CSS defines the presentation (how each element looks). Before CSS was released in 1996, the presentation was defined in HTML, and it was truely a mess. After the release of CSS it was now possible to defined styles for global tags (ex. every H1 in the document), collection of tags (ex. every H1 set with a specific class) or specific tag (ex. a H1 set with a unique id or CSS defined in a style property in the H1).
+    <p>The following HTML code will show "Overskrift" as the highest level of headings with the style defined by the users browser.</p>
+    <p> <code class="code-html">&lt;h1&gt;Overskrift&lt;/h1&gt;</code> </p>
+    <div class="ex"><h1>Overskrift</h1></div>
+    <p>The following HTML code will show "Overskrift" as the highest level of headings.</p><p><code class="code-html">&lt;h1&gt;Overskrift&lt;/h1&gt;</code></p><p>The reference to the style is defined by the tag. The style can be either on the top of the page, or in a separate file. The style will makes  will show the heading in all caps, and will affect all content within a H1 tag.</p>
+    <p><code class="code-css">h1 {text-transform: uppercase;}</code><br>
+    <div class="ex"><h1 style="text-transform: uppercase;">Overskrift</h1></div>
+    <p>If you want the style to affect several tags, you can set a class tag, that affects every relevant tag with that specific class. In this example, the class is called "example".</p><p><code class="code-html">&lt;h1 class"example"&gt;Overskrift&lt;/h1&gt;</code></p><p>If we define the style with a dot in front of the name <code>.example</code>, it will affect all contents within any tag with the class attribut set to "example".</p>
+    <p><code class="code-css">.example {text-transform: uppercase;}</code><br>
+    <div class="ex"><h1 style="text-transform: uppercase;">Overskrift</h1></div>
+    <p>if you want to set a style to one instance only, you can set a property called ID (must be a unique value) insted of a class, and define this with a hashtag in the stylesheet. ex <code>#unique {style goes here...}</code>
+    <p>The last common method to set a style, is to embed it in the HTML of the document by using the STYLE attribute. If we want a H1 as defined by the users browser, but want the background to be black and letters to be white, we can use the following code:</p>
+    <p><code class="code-html">&lt;h1 style="background: black ; color: white;"&gt;Overskrift&lt;/h1&gt;</code></p>
+    <div class="ex"><h1 style="background: black ; color: white;">Overskrift</h1></div>
+  </dd>
     <dd>Describe Element, class and id selectors</dd>
     <dd>Describe a css property</dd>
     <dd>Describe every way a class id and element can be combined as a selector</dd>

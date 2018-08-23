@@ -1,8 +1,61 @@
-<h3>Git</h3>
+<h1>Git</h1>
 <ul>
-    <li>Why use git </li>
-    <li>Describe your Git routines</li>
-    <li>Explain following terms, give use case and put them in order of use or most used: <br>
-pull reset config reset unstage stash push merge rebase clone remote branch blame init checkout commit fetch status add
-    </li>
+  <h3>Why use git</h3>
+    <p>Because...</p>
+  <h3>Describe your Git routines</h3>
+    <p>Try and fail</p>
+  <h3>Terms in Git</h3>
+    <p>Explain following terms, give use case and put them in order of use or most used: </p>
+    <h4>config</h4>
+      <p>Change the configuration of Git, by using commandline tool. Lets you see, add, change og remove settings of Git. For detailed use of the available options for <code>git config</code>, look at the <a href="https://git-scm.com/docs/git-config">documentation</a> for details.</p>
+      <p>Usage to work with config: <code class="code-q">git config  </code> </p>
+    <h4>clone</h4>
+      <p>Makes a locale clone of a repository. Usage: <code class="code-q">git clone https://github.com/path-to-and-name-of-repository</code></p>
+    <h4>remote</h4>
+      <p>Show or create a connection between local repository and the remote repository.</p>
+      <p>Usage for showing current remotes: <code class="code-q">git remote -v</code> </p>
+      <p>Usage for creating a remote: <code class="code-q">git remote add upstream https://github.com/path-to-and-name-of-repository</code> </p>
+    <h4>branch</h4>
+      <p>Each repository can be organized in branches. The <code>git branch</code> command let you create, list, rename and delete branches to the project. This makes it possible for development in the project, without risking to make the whole project corrupt. when the new branch is thoroughly tested, you can merge the branch to the main branch (mostly named; master)</p>
+      <p>Usage to list branches: <code class="code-q">git branch</code> </p>
+      <p>Usage to create a new branch: <code class="code-q">git branch name-of-the-new-branch</code> </p>
+      <p>Usage to rename the current branch: <code class="code-q">git branch -m name-of-the-new-branch</code> </p>
+      <p>Usage to delete a branch: <code class="code-q">git -d branch name-of-the-new-branch</code>.</p>
+
+    <h4>commit</h4>
+      <p>Saves a snapshot of your work as as a commit. This will not affect the working directory until you push the commit</p>
+    <h4>pull</h4>
+      <p>Fetches the remote repository (upstream) into the local repository (origin), and merges the two repositories. Its a shorthand for two other git commands; <code> git fetch</code> and <code>git merge</code></p>
+      <p>Usage to pull: <code class="code-q">git pull branch-of-remote-repository</code></p>
+    <h4>push</h4>
+      <p>Fetches the local repository (origin) into the remote repository (upstream), and merges the two repositories. Its a shorthand for two other git commands; <code> git fetch</code> and <code>git merge</code></p>
+      <p>Usage to push: <code class="code-q">git pull origin branch-of-remote-repository</code> </p>
+    <h4>reset</h4>
+      <p>lets you undo the state of commits in your repository. It can affect the INDEX (the next proposed commit) of the branch. or the HEAD of the repository (the last commit in an branch), so local files (thats already is commited) will be displayed as "changes til commit".</p>
+      <p>Usage to reset only the INDEX, but not the HEAD: <code class="code-q">git reset</code> Shorthand for <code>git reset --mixed</code></p>
+      <p>Usage to reset only the HEAD, but  not the INDEX: <code class="code-q">git reset --soft</code></p>
+      <p>Usage to reset the HEAD and the INDEX: <code class="code-q">git reset --hard</code></p>
+    <h4>unstage</h4>
+      <p></p>
+    <h4>stash</h4>
+      <p></p>
+
+    <h4>merge</h4>
+      <p></p>
+    <h4>rebase</h4>
+      <p>Moves one or more commits to  </p>
+    <h4>blame</h4>
+      <p></p>
+    <h4>init</h4>
+      <p></p>
+    <h4>checkout</h4>
+      <p>Moves commits to the working directory. </p>
+
+    <h4>fetch</h4>
+      <p></p>
+    <h4>status</h4>
+      <p></p>
+    <h4>add</h4>
+      <p></p>
+  </li>
 </ul>

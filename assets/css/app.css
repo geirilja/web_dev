@@ -1,1 +1,22 @@
 /* This file is for your main application css. */
+code {font-size: 120%; font-family: monospace; padding: 0.2rem 0.5rem 0.2rem 0.5rem; border: solid grey 1px;}
+.code-q {
+  background-color: black;
+  color: lightblue;
+}
+.code-a {
+  background-color: black:
+  color: yellow;
+}
+.code-html {
+  background-color: lightgrey;
+  color: darkblue;
+}
+.code-css {
+  background-color: lightgrey;
+  color: darkgreen;
+}
+div.ex {
+  background-color: white;
+  padding:0.3rem 3rem 0.3rem 3rem;
+  border: solid darkgrey 1px}
